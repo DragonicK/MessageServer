@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{e27ba8f2-afe7-4340-bf69-6bf25ef6ab49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{8d80c987-6383-4328-9199-8040b82e9dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{453a724c-ad89-48de-b3aa-98581371c67e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texts">
+      <UniqueIdentifier>{4b8bfe9b-30b6-4af9-b281-12b7f8a2d751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket\Packet">
+      <UniqueIdentifier>{84daf6e8-da9e-4c93-ba06-78b2d2233ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket\Factory">
+      <UniqueIdentifier>{d6be25bd-04a2-4bb8-82dc-e4a75a367fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket\Packet\Client">
+      <UniqueIdentifier>{36746185-4970-4d69-8fdf-21748173a521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket\Packet\Abstract">
+      <UniqueIdentifier>{1860932c-a965-4c5c-b078-70a3c2a00e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket\Packet\Packet Header">
+      <UniqueIdentifier>{817dae30-6262-46a7-b3d7-e4aedb5371e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MessageServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSocket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteBuffer.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleData.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketFactory.cpp">
+      <Filter>Socket\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="CpLogin.cpp">
+      <Filter>Socket\Packet\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="IRecvPacket.cpp">
+      <Filter>Socket\Packet\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="ISendPacket.cpp">
+      <Filter>Socket\Packet\Abstract</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageServer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSocket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteBuffer.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleData.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketFactory.h">
+      <Filter>Socket\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="CpLogin.h">
+      <Filter>Socket\Packet\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="IRecvPacket.h">
+      <Filter>Socket\Packet\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="ISendPacket.h">
+      <Filter>Socket\Packet\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPacket.h">
+      <Filter>Socket\Packet\Packet Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPacket.h">
+      <Filter>Socket\Packet\Packet Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MessageServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
